@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${redHatDisplay.className} antialiased`}>
+      <body className={`${redHatDisplay.className} bg-background-primary text-content-body antialiased`}>
         {children}
       </body>
     </html>
