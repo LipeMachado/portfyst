@@ -1,3 +1,6 @@
+import Button from "../ui/button";
+import TextInput from "../ui/text-input";
+
 export default function Hero(){
   return(
     <>
@@ -11,10 +14,10 @@ export default function Hero(){
             <br />
             Acompanhe o engajamento com Analytics de cliques
           </h2>
-          <div className="flex items-center gap-2 w-full -mt-[10vh]">
+          <div className="flex items-center gap-2 w-full mt-[10vh]">
             <span className="text-white text-xl">portfyst.com</span>
-            <input type="text" />
-            <button>Criar agora</button>
+            <TextInput placeholder="Seu link"/>
+            <Button>Criar agora</Button>
           </div>
         </div>
         <div className="w-full flex items-center justify-center bg-[radial-gradient(circle_at_50%_50%,#4B2DBB, transparent_55%)]">Add commentMore actions
