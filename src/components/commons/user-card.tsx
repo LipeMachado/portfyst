@@ -8,7 +8,7 @@ export default function UserCard() {
     <div className="w-[348px] flex flex-col gap-5 items-center p-5 border border-white/10 bg-[#121212] rounded-3xl text-white">
       <div className="size-48">
         <img
-          src="/me.webp"
+          src="/me.jpg"
           alt="André Dev"
           className="rounded-full object-cover w-full h-full"
         />
