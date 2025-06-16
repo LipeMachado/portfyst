@@ -1,5 +1,5 @@
 
-import Header from "@/components/lading-page/header";
+import Header from "@/app/components/lading-page/header";
 import { Rocket } from "lucide-react";
 import { Metadata } from "next";
 

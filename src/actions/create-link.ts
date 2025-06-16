@@ -1,8 +1,8 @@
 "use server";
 
 import { Timestamp } from "firebase-admin/firestore";
-import { auth } from "../lib/auth";
-import { db } from "../lib/firebase";
+import { auth } from "../app/lib/auth";
+import { db } from "../app/lib/firebase";
 
 export async function createLink(link: string) {
   const session = await auth();

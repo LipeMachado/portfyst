@@ -2,9 +2,9 @@
 
 import { createLink } from "@/actions/create-link";
 import { verifyLink } from "@/actions/verify-link";
-import Button from "@/components/ui/button";
-import TextInput from "@/components/ui/text-input";
-import { sanitizeLink } from "@/lib/utils";
+import Button from "@/app/components/ui/button";
+import TextInput from "@/app/components/ui/text-input";
+import { sanitizeLink } from "@/app/lib/utils";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 

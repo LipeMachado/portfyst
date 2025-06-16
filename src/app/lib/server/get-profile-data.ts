@@ -1,6 +1,6 @@
 "use server";
 
-import { Link } from "../../actions/add-custom-links";
+import { Link } from "../../../actions/add-custom-links";
 import { db } from "../firebase";
 
 export type ProfileData = {

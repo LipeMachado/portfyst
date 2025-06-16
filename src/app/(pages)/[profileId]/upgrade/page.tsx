@@ -1,4 +1,4 @@
-import Header from "@/components/lading-page/header";
+import Header from "@/app/components/lading-page/header";
 import PlanButtons from "./plan-buttons";
 
 export default async function UpgradePage() {

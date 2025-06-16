@@ -1,7 +1,7 @@
 "use server";
 
-import { auth } from "../lib/auth";
-import { db } from "../lib/firebase";
+import { auth } from "../app/lib/auth";
+import { db } from "../app/lib/firebase";
 
 export type Link = {
   title: string;
