@@ -1,8 +1,8 @@
 const faqItems = [
   {
-    title: "Como funciona a criação de portfólio e links com Storyst",
+    title: "Como funciona a criação de portfólio e links com Portfyst",
     description:
-      "Com Storyst, você pode criar um portfólio profissional e uma página de links em poucos minutos. Nossa plataforma oferece templates personalizáveis e uma interface fácil de usar para que você possa mostrar seu trabalho e organizar seus links de maneira eficiente.",
+      "Com Portfyst, você pode criar um portfólio profissional e uma página de links em poucos minutos. Nossa plataforma oferece templates personalizáveis e uma interface fácil de usar para que você possa mostrar seu trabalho e organizar seus links de maneira eficiente.",
   },
   {
     title: "Há um período de teste gratuito?",
@@ -12,7 +12,7 @@ const faqItems = [
   {
     title: "Posso personalizar o design do meu portfólio?",
     description:
-      "Sim! Com Storyst, você pode personalizar cores, fontes e o layout do seu portfólio, garantindo que ele reflita a sua marca pessoal.",
+      "Sim! Com Portfyst, você pode personalizar cores, fontes e o layout do seu portfólio, garantindo que ele reflita a sua marca pessoal.",
   },
   {
     title: "Preciso de habilidades técnicas para usar a plataforma?",
