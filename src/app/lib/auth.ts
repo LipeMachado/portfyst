@@ -21,10 +21,14 @@ declare module "next-auth" {
 }
 
 export const { auth, handlers, signIn, signOut } = NextAuth({
+  // @ts-ignore
   adapter: FirestoreAdapter({
     credential: firebaseCert,
   }),
-  providers: [Google],
+  providers: [Google({
+    clientId: process.env.GOOGLE_CLIENT_ID!,
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET!
+  })],
   events: {
     createUser: async ({ user }) => {
       if (!user.id) return;
