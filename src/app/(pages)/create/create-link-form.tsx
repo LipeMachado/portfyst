@@ -26,7 +26,6 @@ export default function CreateLinkForm() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    // Quando o usuario nao escreve um link
     if (link.length === 0) return setError("Escolha um link primeiro :)");
 
     const isLinkTaken = await verifyLink(link);
