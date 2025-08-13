@@ -2,6 +2,7 @@
 import Header from "@/app/components/lading-page/header";
 import { Rocket } from "lucide-react";
 import { Metadata } from "next";
+import CreateLinkForm from "./create-link-form";
 
 export const metadata: Metadata = {
   title: "ProjectInBio - Criar",
@@ -18,6 +19,7 @@ export default function CriarPage() {
           <h1 className="text-4xl font-bold text-white">Escolha seu link</h1>
           <Rocket className="size-10" />
         </div>
+        <CreateLinkForm />
       </div>
     </div>
   );

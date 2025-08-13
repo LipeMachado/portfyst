@@ -1,7 +1,7 @@
 "use server";
 
-import { Link } from "../../../actions/add-custom-links";
-import { db } from "../firebase";
+import { Link } from "@/actions/add-custom-links";
+import { db } from "@/app/lib/firebase";
 
 export type ProfileData = {
   userId: string;
